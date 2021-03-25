@@ -30,6 +30,7 @@ function validateForm(form) {
     });
     $("form[name='" + form[0].Name + "']").validate({
       errorClass: "error fail-alert",
+      validClass: "valid success-alert",
       onkeyup: false,
       onclick: false,
       focusInvalid: false,
